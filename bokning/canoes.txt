@@ -1,0 +1,5 @@
+    $canoe_unavali = array();
+    $canoe_avail = array();
+    $canoe_booked = array();
+    $canoe_booked_str = "";
+    $canoe_check = 0;

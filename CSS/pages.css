@@ -1,0 +1,3944 @@
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  font-family: Optima, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-style: ;
+  line-height: 20px;
+  
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+textarea {
+    display: block;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+select {
+    display: block;
+    height: 50px;
+    width: 20%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+
+legend {
+    float: left;
+    font-size: 1.1em;
+}
+
+
+
+
+@media(min-width:0px) and (max-width:350px) {
+    
+    * {
+
+    margin: 0 auto;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 5%;
+    text-align: center;
+
+}
+
+h1, h2 {
+    
+    border-spacing: 20px;
+    font-size: 2em; 
+    font-style: normal;
+}
+
+
+
+p {
+	font-size: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+html, body {
+
+
+ 
+}
+
+body {
+
+   	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+   	background-color: white;
+ 	
+}
+	
+	
+	
+	
+	header {
+	
+	width: 100%;
+	position: absolute;
+	background-color: whitesmoke;
+	left: 0px;
+	top: 0px;
+	padding-bottom: 0%;
+	}
+	
+	.menu {
+		position: fixed;
+		width: 100%;
+		float: left;
+		text-align: center;
+		height: ;
+    	background: whitesmoke;	
+    	z-index: 0;
+    	border-radius: 2px;
+    	overflow: scroll;
+ 	}
+	
+	
+	
+	
+	.menu_button {
+	
+    	position: relative;
+    	width: 70px;
+    	margin: 15px 0% 0% 40%;
+    	left: 0px;
+        z-index: 5;
+        border: none;
+        background-color: whitesmoke;
+    }
+        
+	.menu_button img {
+	width: 100%;
+	height: 100%;
+	
+	}
+	
+	
+	
+    ul#nav {
+    list-style: none;
+    float: left;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    margin-top: 25%;
+    z-index: 0;
+   
+    
+    }
+    
+    ul.nav li{
+    opacity: 1;
+    float: left;
+    width: 92%;
+    margin: 3px;
+    margin-left: -30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    
+    ul.nav h3 {
+    text-align: center;
+    border-spacing: 20px;
+    font-size: 1.0em; 
+    color: darkgray;
+}
+	
+	
+/* lang menu */
+
+    #header img#lang_icon_en {
+    width: 35px;
+    height: 35px;
+    position:absolute;
+    left: 460px;
+    top: 45px;
+    z-index:5000;
+    } 
+    
+    #header img#lang_icon_de {
+   width: 35px;
+    height: 35px;
+    position:absolute;
+    left: 420px;
+    top: 45px;
+    z-index:5000;
+    } 
+    
+    #header img#lang_icon_de {
+    width: 35px;
+    height: 35px;
+    position:absolute;
+    left: 380px;
+    top: 45px;
+    z-index:5000;
+    } 
+        
+
+
+/*Pages*/
+
+#slideshow { 
+    position: relative; 
+    width: 100%; 
+    height: 310px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+#slideshow1 { 
+    position: relative; 
+    width: 100%; 
+    height: 200px; 
+}
+
+#slideshow1 > div { 
+    position: absolute; 
+}
+#slideshow2 { 
+    position: relative; 
+    width: 100%; 
+    height: 220px; 
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+}
+#slideshow3 { 
+    position: relative; 
+    width: 100%; 
+    height: 200px; 
+}
+
+#slideshow3 > div { 
+    position: absolute; 
+}
+#slideshow4 { 
+    position: relative; 
+    width: 100%; 
+    height: 280px; 
+}
+
+#slideshow4 > div { 
+    position: absolute; 
+}
+
+
+
+    .content {
+	width: 100%;
+	margin-top: 0%;	
+	}
+	
+	.contentbackground {
+	width: 100%;
+	position: absolute;
+	background-color: whitesmoke;
+	z-index: 3;
+	
+	}
+
+/* rubrik-ram */
+    .topiccontainer {
+    	position: relative;
+        background: whitesmoke;
+        width: 94%;
+        margin: 1%;
+        padding: 1%;
+        z-index: 5;
+        
+        }
+        
+        .topiccontainer2 {
+        position: relative;
+        width: 99%;
+        margin: 0% 1%;
+        top: 0%;
+        background-color: white; 
+        border-radius: 5px;
+        }
+        
+        .pagecontainer {
+    	position: relative;
+        float: left;
+        background: white;
+        width: 96%;
+        margin-top: 6%;
+        margin-left: 2%;
+        margin-bottom: 0px;
+        z-index: 5;
+        border-radius: 5px;
+        
+        }
+        
+   
+    
+    .topic {
+    	position: relative;
+        width: 100%;
+        height: 100%;
+        top: 15px;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        border-radius: 5px;
+    }
+    
+    .topic h2 {
+    	text-align: center;
+    	}
+    	
+        .topic p {
+    	text-align: center;
+    	}
+
+    
+    	.topicimg h2 {
+    	text-align: center;
+    	}
+    	
+    .topicimg p {
+    	text-align: center;
+    	}
+    	
+    
+.topicwide {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+
+   .topic2 {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+    
+    .topic2 h3{
+		text-align: left;
+		}
+    
+    .topic2 p {
+        text-align: justify;
+		}
+		
+		
+	.topic3 {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin: 1%;
+        margin-top: 4%;
+        background-color: none;
+        box-shadow: none;
+        }
+        .topic3 button { 
+	    width: 100%;
+	 	background: none;
+  		border: none;
+		}
+		
+	.topicbilder{
+	
+        position: relative;
+        width: 98%;
+        float: left;
+        left: 3%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topicbilder img {
+        margin-top:4%;
+		width: 95%;
+		border-radius:15px;
+		}
+		
+		.topic2priser {
+        position: relative;
+        width: 30%;
+        float: left;
+        left: 3.5%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topic2priser p {
+		text-align: left;
+		}
+		
+	.topic2priser button { 
+	    width: 96%;
+	 	background: none;
+  		border: none;
+		}
+		
+		
+	
+
+    .topic img {
+    
+        margin: 5%;
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+    	.topicimg img {
+    
+        margin: 5%;
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+
+
+    .action {
+        background-color: midnightblue;
+        width: 90%;
+        height: 50px;
+        margin: 5%;
+        position: absolute;
+    	bottom: 0px;
+        border-radius: 10px;
+    }
+
+    .action h3 {
+        color: white;
+        margin: 0%;
+        padding: 5px;
+        font-size: 2.0em;
+    }
+    
+    
+    
+    
+     /* map */  
+    
+    .mapcontainter {
+    	float: left;
+    	position: relative;
+    	top: 0%;
+    	margin-top: 5%;
+    	margin-bottom: 300px;
+    	width: 98%;
+    	background: whitesmoke;
+    	z-index: 1;
+    }
+    
+    .mappop { 
+    	visibility: hidden;
+    	opacity:1;
+    	position: absolute;
+    	overflow: scroll;
+    	left: -8%;
+    	top: 105%;
+    	width: 96%;
+    	height: 300px;
+    	margin: 10%;
+    	margin-top: 0%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .mappop:hover { 
+    	opacity: 1;
+    }
+    
+    .mappop h3 {
+    	
+    	text-align: center;
+    	margin-top: 8%;
+    }
+    
+    .mappop p {
+    	font-size: 1.3em;
+    	text-align: center;
+    	
+    }
+    
+     
+    .mappop button {
+    	visibility: hidden;
+    }
+    
+    
+	
+    .PREV {
+    	position: absolute;
+    	top: 0%;
+    	left: 0%;
+    	margin-top: 0%;
+   		width: 50%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    	
+    }
+    
+    .NEXT {
+    	position: absolute;
+        right: 5%;
+   		width: 50%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    }
+    .NEXT p {
+    	text-align: right;
+    }
+    
+    .map {
+		position: relative;
+		left: -8%;
+    	width: 96%;
+    	margin-left: 10%;
+		background: whitesmoke;
+		z-index: 2;
+		
+	}
+	
+	.map img {
+    	position: relative;
+    	width: 100%;
+    	margin-top: 0%;
+    	opacity: 1; 
+    	border: solid 1px black;
+    	border-radius: 5px;
+		z-index: 2;
+	}
+	
+	
+	
+	
+    
+    .mapaction {
+    	position: absolute;
+    	visibility: visible;
+   		width: 5%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 6;
+    }
+    
+    
+    
+        
+    #sjotorpBTN {
+    	left: 11%;
+    	top: 10%;
+    }
+    
+    #lyrestadBTN {
+    	left: 21%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnBTN {
+    	left: 28%;
+    	top: 24%;
+    	
+    }
+    
+    #hajstorpBTN {
+    	left: 32%;
+    	top: 34%;
+    	
+    }
+    
+    #torebodaBTN {
+    	left: 34%;
+    	top: 45%;
+    	
+    }
+    
+    #jonsbodaBTN {
+    	left: 34%;
+    	top: 60%;
+    	
+    }
+    
+    #vassbackenBTN {
+    	left: 40%;
+    	top: 68%;
+    	
+    }
+    
+    #lanthojdenBTN {
+    	left: 44%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpBTN {
+    	left: 47%;
+    	top: 72%;
+    	
+    }
+    
+    #forsvikBTN {
+    	left: 78%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgBTN {
+    	left: 92%;
+    	top: 83%;
+    	
+    }
+    
+    
+    .maphover {
+    	position: absolute;
+   		visibility: hidden;
+   		width: 10%;
+   		padding: 1%;
+   		background: whitesmoke;
+    	border-radius: 5px;
+    	border-bottom-left-radius: 0px;
+    	box-shadow: 1px 2px 3px;
+    	z-index: 5;
+    }
+    
+    .maphover h4 {
+    	text-align: center;
+    }
+    
+    #sjotorpHover {
+    	left: 14%;
+    	top: 8%;
+    	
+    }
+    
+    #lyrestadHover {
+        left: 24.5%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnHover {
+    	left: 28%;
+    	top: 19.5%;
+    	
+    }
+    
+    #hajstorpHover {
+       	left: 35%;
+    	top: 33%;
+    	
+    }
+    
+    #torebodaHover {
+       	left: 38%;
+    	top: 44%;
+    	
+    }
+    
+    #jonsbodaHover {
+		left: 37%;
+    	top: 61%;
+    	
+    }
+    
+    #vassbackenHover {
+       	left: 41%;
+    	top: 69%;
+    	
+    }
+    
+    #lanthojdenHover {
+       	left: 46%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpHover {
+       	left: 49%;
+    	top: 73%;
+    	
+    }
+    
+    #forsvikHover {
+       	left: 81%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgHover {
+       	left: 93%;
+    	top: 83%;
+    	
+    }
+    
+    
+    
+	.maplinepop { 
+    	visibility: hidden;
+    	opacity: 0.9;
+    	position: absolute;
+    	left: 10%;
+    	top: 40%;
+    	width: 13%;
+    	padding: 1%;
+    	padding-left: 0px;
+    	padding-right: 0px;
+       	background: whitesmoke;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .maplinepop:hover { 
+    	opacity: 1;
+    }
+    
+    
+    .lineaction {
+    	position: absolute;
+   		visibility: hidden;
+   		width: 40%;
+   		background: white;
+    	border-radius: px;
+    	border: 1px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+   
+    .linehover {
+    	position: relative;
+   		visibility: hidden;
+   		opacity: 0.9;
+   		padding: 0%;
+   		margin: 2%;
+   		
+    	border-radius: 5px;
+    	border: solid 0px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+    .linehover h4 {
+    	text-align: center;
+    }
+    
+
+    /*Footer*/
+    
+    	.footer {
+	
+    	float: left;
+    	position: relative;
+    	width: 100%;
+    	height: 20%;
+    	   	
+    	text-align: center;
+		margin: 0%;    
+		
+		margin-top: 0px;
+		margin-bottom: 5%;	
+    	background-color: whitesmoke;
+    	
+    	flex-flow: row;
+    	-webkit-flex-flow: row;
+    	row-height: 100%;
+    	
+    	border-radius: px;
+    	z-index: 4;
+    	
+    	
+    }
+        
+    .footertopic {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 160px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+        .footertopic p {
+        font-size: 0.9em;
+        text-align: center;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	
+	.footertopic2 {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 130px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+        .footertopic2 p {
+        font-size: 0.9em;
+        text-align: justify;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	
+
+	.footer img {
+	    margin-top: 5%;
+		
+	}
+.footericon_no {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 160px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	margin-bottom: 0%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+   
+.footericon {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 160px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	margin-bottom: 0%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+    
+        .footericon p {
+        display: none; 
+        text-align: center;
+        font-size: 1em;
+	    margin-left: 10%;
+    	margin-right: 10%;
+    	}
+    	.footericon h3 {
+        display: none; 
+        text-align: center;
+        font-size: 1.3em;
+        margin-top: 10%;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	.iconimg img {
+	    display:none;
+	}
+    .footericon:hover {
+        background-color: white;
+    }
+    .footericon:hover p {
+        display: inline;
+    }
+    .footericon:hover h3 {
+        display: inline;
+    }
+    .footericon:hover img {
+        display: none;
+    }
+    .footericon:hover .iconimg img {
+        display: inline;
+    }
+    
+    
+    
+    
+    .footericon:focus {
+        background-color: white;
+    }
+    .footericon:focus p {
+        display: inline;
+    }
+    .footericon:focus h3 {
+        display: inline;
+    }
+    .footericon:focus img {
+        display: none;
+    }
+    .footericon:focus .iconimg img {
+        display: inline;
+    }
+
+/*Popup*/
+
+	.pop { 
+    	visibility: hidden;
+    	position: fixed;
+    	width: 92%;
+    	height: 360px;
+    	z-index: 6; 
+    	padding: 5px;
+    	margin: 2%;
+    	padding: 2%;
+    	top: 5%;
+    	left: 0%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: gray 3px 4px 5px;
+    	
+    }
+    
+    .poptopic {
+    	position: relative;
+    	overflow: scroll;
+        width: 98%;
+        height: 340px;
+        border-radius: 5px;
+        z-index: 7; 
+        background-color: white;
+        box-shadow: none;
+        text-align: left;
+     
+    }
+    .poptopic p {
+        text-align: left;
+    }
+    
+    .close {
+    	right: 5;
+    	top: 5;
+    	float: right;
+    }
+    
+    .popoverflow {
+		visibility: hidden;
+		opacity: 0.5;
+    	position: fixed;
+    	left: 0%;
+    	width: 100%; 
+    	height: 100%;
+    	background: gray;
+    	z-index: 6; 
+    }
+
+}
+
+@media(min-width:350px) and (max-width:500px) {
+    
+    * {
+
+    margin: 0 auto;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 5%;
+    text-align: center;
+
+}
+h1, h2 {
+    
+    border-spacing: 20px;
+    font-size: 2em; 
+    font-style: normal;
+}
+
+
+
+p {
+	font-size: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+html, body {
+
+
+ 
+}
+
+body {
+
+   	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+   	background-color: white;
+   	
+   
+   	
+}
+	
+	
+	
+	
+	header {
+	
+	width: 100%;
+	position: absolute;
+	background-color: whitesmoke;
+	left: 0px;
+	top: 0px;
+	padding-bottom: 0%;
+	}
+	
+	.menu {
+		position: fixed;
+		width: 100%;
+		float: left;
+		text-align: center;
+    	background: whitesmoke;	
+    	z-index: 0;
+    	border-radius: 2px;
+    	
+ 	}
+	
+	
+	
+	
+	.menu_button {
+	
+    	position: absolute;
+    	width: 70px;
+    	margin: 15px 0% 0% 40%;
+    	left: 0px;
+        z-index: 5;
+        border: none;
+        background-color: whitesmoke;
+    }
+        
+	.menu_button img {
+	width: 100%;
+	height: 100%;
+	
+	}
+	
+	
+	
+    ul#nav {
+    list-style: none;
+    float: left;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    margin-top: 25%;
+    z-index: 0;
+   
+    
+    }
+    
+    ul.nav li{
+    opacity: 1;
+    float: left;
+    width: 92%;
+    margin: 3px;
+    margin-left: -30px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    
+    ul.nav li h2 {
+    padding: 1%;
+    }
+    
+    ul.nav h3 {
+    text-align: center;
+    border-spacing: 20px;
+    font-size: 1.0em; 
+    color: darkgray;
+}
+
+
+	
+	
+	
+/* lang menu */
+
+    ul#lang_nav {
+    	position: relative;
+    	
+        margin: 2% 0% 1.5% 80%;
+        width: 4%;
+        z-index: 4;
+        }
+        
+        
+    ul.slide a {
+        display:block;
+        
+    }
+    ul.slide, ul.slide li, ul.slide ul {
+    position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        
+        
+       
+    }
+    ul.slide {
+        position: relative;
+        z-index: 1;
+        float: left;
+         
+    }
+    ul.slide li {
+        float: left;
+        line-height: 1.3em;
+        vertical-align: middle;
+        
+        zoom: 1;
+    }
+
+    ul.slide ul {
+        visibility: hidden;
+        position: absolute;
+        top: 0%;
+        left: 100%;
+        z-index: 2;
+        width: 100%;
+        padding:1px;
+        background: transparent;
+    }
+    ul.slide ul li {
+        float: left;
+        
+    }
+    ul.slide ul ul {
+        float: left;
+        
+        left:100%;
+    }
+    ul.slide li:hover > ul {
+        visibility: visible;
+        
+    }
+    ul.slide li:hover > ul ul {
+        visibility: visible;
+        
+    }
+
+
+/*Pages*/
+
+#slideshow { 
+    position: relative; 
+    width: 100%; 
+    height: 360px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+#slideshow1 { 
+    position: relative; 
+    width: 100%; 
+    height: 260px; 
+}
+
+#slideshow1 > div { 
+    position: absolute; 
+}
+#slideshow2 { 
+    position: relative; 
+    width: 100%; 
+    height: 280px; 
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+}
+#slideshow3 { 
+    position: relative; 
+    width: 100%; 
+    height: 280px; 
+}
+
+#slideshow3 > div { 
+    position: absolute; 
+}
+#slideshow4 { 
+    position: relative; 
+    width: 100%; 
+    height: 280px; 
+}
+
+#slideshow4 > div { 
+    position: absolute; 
+}
+
+
+
+    .content {
+	width: 100%;
+	margin-top: 0%;	
+	overflow: visible;
+	}
+	
+	.contentbackground {
+	width: 100%;
+	position: absolute;
+	background-color: whitesmoke;
+	z-index: 3;
+	
+	}
+
+/* rubrik-ram */
+    .topiccontainer {
+    	position: relative;
+        background: whitesmoke;
+        width: 94%;
+        margin: 1%;
+        padding: 1%;
+        z-index: 5;
+        
+        }
+        
+        .topiccontainer2 {
+        position: relative;
+        width: 99%;
+        margin: 0% 1%;
+        top: 0%;
+        background-color: white; 
+        border-radius: 5px;
+        }
+        
+        .pagecontainer {
+    	position: relative;
+        float: left;
+        background: white;
+        width: 96%;
+        margin-top: 6%;
+        margin-left: 2%;
+        margin-bottom: 0px;
+        z-index: 5;
+        border-radius: 5px;
+        
+        }
+        
+   
+    
+    .topic {
+    	position: relative;
+        width: 100%;
+        height: 100%;
+        top: 15px;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        border-radius: 5px;
+    }
+    
+    .topic h2 {
+    	text-align: center;
+    	}
+    	
+        .topic p {
+    	text-align: center;
+    	}
+
+    
+    	.topicimg h2 {
+    	text-align: center;
+    	}
+    	
+    .topicimg p {
+    	text-align: center;
+    	}
+    	
+    	
+    .logga {
+	    visibility: visible;
+	    position: relative;
+	    width: 33%;
+	    margin: 0%;
+	    padding: 0%;
+	    top: 0%;
+	    z-index: 5;
+	}	
+
+    .topicwide {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+
+   .topic2 {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+    
+    .topic2 h3{
+		text-align: left;
+		}
+    
+    .topic2 p {
+        text-align: justify;
+		}
+		
+		
+	.topic3 {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin: 1%;
+        margin-top: 4%;
+        background-color: white;
+        box-shadow: none;
+        }
+        .topic3 button { 
+	    width: 100%;
+	 	background: none;
+  		border: none;
+		}
+		
+	.topicbilder{
+	
+        position: relative;
+        width: 98%;
+        float: left;
+        left: 3%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topicbilder img {
+        margin-top:4%;
+		width: 95%;
+		border-radius:15px;
+		}
+		
+		.topic2priser {
+        position: relative;
+        width: 30%;
+        float: left;
+        left: 3.5%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topic2priser p {
+		text-align: left;
+		}
+		
+	.topic2priser button { 
+	    width: 96%;
+	 	background: none;
+  		border: none;
+		}
+		
+		
+	
+
+    .topic img {
+    
+        margin: 5%;
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+    	.topicimg img {
+    
+        margin: 5%;
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+
+
+    .action {
+        background-color: midnightblue;
+        width: 90%;
+        height: 50px;
+        margin: 5%;
+        position: absolute;
+    	bottom: 0px;
+        border-radius: 10px;
+    }
+
+    .action h3 {
+        color: white;
+        margin: 0%;
+        padding: 5px;
+        font-size: 2.0em;
+    }
+    
+    
+    
+    
+     /* map */  
+    
+    .mapcontainter {
+    	float: left;
+    	position: relative;
+    	top: 0%;
+    	margin-top: 5%;
+    	margin-bottom: 300px;
+    	width: 98%;
+    	background: whitesmoke;
+    	z-index: 1;
+    }
+    
+    .mappop { 
+    	visibility: hidden;
+    	opacity:1;
+    	position: absolute;
+    	overflow: scroll;
+    	left: -8%;
+    	top: 105%;
+    	width: 96%;
+    	height: 300px;
+    	margin: 10%;
+    	margin-top: 0%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .mappop:hover { 
+    	opacity: 1;
+    }
+    
+    .mappop h3 {
+    	
+    	text-align: center;
+    	margin-top: 8%;
+    }
+    
+    .mappop p {
+    	font-size: 1.3em;
+    	text-align: center;
+    	
+    }
+    
+     
+    .mappop button {
+    	visibility: hidden;
+    }
+    
+    
+	
+    .PREV {
+    	position: absolute;
+    	top: 0%;
+    	left: 0%;
+    	margin-top: 0%;
+   		width: 50%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    	
+    }
+    
+    .NEXT {
+    	position: absolute;
+        right: 5%;
+   		width: 50%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    }
+    .NEXT p {
+    	text-align: right;
+    }
+    
+    .map {
+		position: relative;
+		left: -8%;
+    	width: 96%;
+    	margin-left: 10%;
+		background: whitesmoke;
+		z-index: 2;
+		
+	}
+	
+	.map img {
+    	position: relative;
+    	width: 100%;
+    	margin-top: 0%;
+    	opacity: 1; 
+    	border: solid 1px black;
+    	border-radius: 5px;
+		z-index: 2;
+	}
+	
+	
+	
+	
+    
+    .mapaction {
+    	position: absolute;
+    	visibility: visible;
+   		width: 5%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 6;
+    }
+    
+    
+    
+        
+    #sjotorpBTN {
+    	left: 11%;
+    	top: 10%;
+    }
+    
+    #lyrestadBTN {
+    	left: 21%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnBTN {
+    	left: 28%;
+    	top: 24%;
+    	
+    }
+    
+    #hajstorpBTN {
+    	left: 32%;
+    	top: 34%;
+    	
+    }
+    
+    #torebodaBTN {
+    	left: 34%;
+    	top: 45%;
+    	
+    }
+    
+    #jonsbodaBTN {
+    	left: 34%;
+    	top: 60%;
+    	
+    }
+    
+    #vassbackenBTN {
+    	left: 40%;
+    	top: 68%;
+    	
+    }
+    
+    #lanthojdenBTN {
+    	left: 44%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpBTN {
+    	left: 47%;
+    	top: 72%;
+    	
+    }
+    
+    #forsvikBTN {
+    	left: 78%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgBTN {
+    	left: 92%;
+    	top: 83%;
+    	
+    }
+    
+    
+    .maphover {
+    	position: absolute;
+   		visibility: hidden;
+   		width: 10%;
+   		padding: 1%;
+   		background: whitesmoke;
+    	border-radius: 5px;
+    	border-bottom-left-radius: 0px;
+    	box-shadow: 1px 2px 3px;
+    	z-index: 5;
+    }
+    
+    .maphover h4 {
+    	text-align: center;
+    }
+    
+    #sjotorpHover {
+    	left: 14%;
+    	top: 8%;
+    	
+    }
+    
+    #lyrestadHover {
+        left: 24.5%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnHover {
+    	left: 28%;
+    	top: 19.5%;
+    	
+    }
+    
+    #hajstorpHover {
+       	left: 35%;
+    	top: 33%;
+    	
+    }
+    
+    #torebodaHover {
+       	left: 38%;
+    	top: 44%;
+    	
+    }
+    
+    #jonsbodaHover {
+		left: 37%;
+    	top: 61%;
+    	
+    }
+    
+    #vassbackenHover {
+       	left: 41%;
+    	top: 69%;
+    	
+    }
+    
+    #lanthojdenHover {
+       	left: 46%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpHover {
+       	left: 49%;
+    	top: 73%;
+    	
+    }
+    
+    #forsvikHover {
+       	left: 81%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgHover {
+       	left: 93%;
+    	top: 83%;
+    	
+    }
+    
+    
+    
+	.maplinepop { 
+    	visibility: hidden;
+    	opacity: 0.9;
+    	position: absolute;
+    	left: 10%;
+    	top: 40%;
+    	width: 13%;
+    	padding: 1%;
+    	padding-left: 0px;
+    	padding-right: 0px;
+       	background: whitesmoke;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .maplinepop:hover { 
+    	opacity: 1;
+    }
+    
+    
+    .lineaction {
+    	position: absolute;
+   		visibility: hidden;
+   		width: 40%;
+   		background: white;
+    	border-radius: px;
+    	border: 1px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+   
+    .linehover {
+    	position: relative;
+   		visibility: hidden;
+   		opacity: 0.9;
+   		padding: 0%;
+   		margin: 2%;
+   		
+    	border-radius: 5px;
+    	border: solid 0px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+    .linehover h4 {
+    	text-align: center;
+    }
+    
+
+    /*Footer*/
+    
+    	.footer {
+	
+    	float: left;
+    	position: relative;
+    	width: 100%;
+    	height: 20%;
+    	   	
+    	text-align: center;
+		margin: 0%;    
+		
+		margin-top: 0px;
+		margin-bottom: 5%;	
+    	background-color: whitesmoke;
+    	
+    	flex-flow: row;
+    	-webkit-flex-flow: row;
+    	row-height: 100%;
+    	
+    	border-radius: px;
+    	z-index: 4;
+    	
+    	
+    }
+        
+    .footertopic {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 160px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+        .footertopic p {
+        font-size: 0.9em;
+        text-align: center;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	
+	.footertopic2 {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 130px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+        .footertopic2 p {
+        font-size: 0.9em;
+        text-align: justify;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	
+
+	.footer img {
+	    margin-top: 5%;
+		
+	}
+   
+   .footericon_no {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 160px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+   
+   .footericon {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 160px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+    
+        .footericon p {
+        display: none; 
+        text-align: center;
+        font-size: 1em;
+	    margin-left: 10%;
+    	margin-right: 10%;
+    	}
+    	.footericon h3 {
+        display: none; 
+        text-align: center;
+        font-size: 1.3em;
+        margin-top: 10%;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	.iconimg img {
+	    display:none;
+	}
+    .footericon:hover {
+        background-color: white;
+    }
+    .footericon:hover p {
+        display: inline;
+    }
+    .footericon:hover h3 {
+        display: inline;
+    }
+    .footericon:hover img {
+        display: none;
+    }
+    .footericon:hover .iconimg img {
+        display: inline;
+    }
+    
+    
+    
+    
+    .footericon:focus {
+        background-color: white;
+    }
+    .footericon:focus p {
+        display: inline;
+    }
+    .footericon:focus h3 {
+        display: inline;
+    }
+    .footericon:focus img {
+        display: none;
+    }
+    .footericon:focus .iconimg img {
+        display: inline;
+    }
+
+
+/*Popup*/
+
+	.pop { 
+    	visibility: hidden;
+    	position: fixed;
+    	width: 92%;
+    	height: 400px;
+    	z-index: 6; 
+    	padding: 5px;
+    	margin: 2%;
+    	padding: 2%;
+    	top: 5%;
+    	left: 0%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: gray 3px 4px 5px;
+    	
+    }
+    
+    .poptopic {
+    	position: relative;
+    	overflow: scroll;
+        width: 98%;
+        height: 380px;
+        border-radius: 5px;
+        z-index: 7; 
+        background-color: white;
+        box-shadow: none;
+        text-align: left;
+     
+    }
+    .poptopic p {
+        text-align: left;
+    }
+    
+    .close {
+    	right: 5;
+    	top: 5;
+    	float: right;
+    }
+    
+    .popoverflow {
+		visibility: hidden;
+		opacity: 0.5;
+    	position: fixed;
+    	left: 0%;
+    	width: 100%; 
+    	height: 100%;
+    	background: gray;
+    	z-index: 6; 
+    }
+
+}
+
+@media(min-width:500px) and (max-width:800px) {
+    
+    * {
+
+    margin: 0 auto;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 5%;
+    text-align: center;
+
+}
+h1, h2 {
+    
+    border-spacing: 20px;
+    font-size: 2em; 
+    font-style: normal;
+}
+
+
+
+p {
+	font-size: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+html, body {
+
+
+ 
+}
+
+body {
+
+   	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+   	background-color: white;
+   	
+   
+   	
+}
+	
+	
+	
+	
+	header {
+	
+	width: 100%;
+	position: absolute;
+	background-color: whitesmoke;
+	left: 0px;
+	top: 0px;
+	padding-bottom: 0%;
+	}
+	
+	.menu {
+		position: fixed;
+		width: 100%;
+		float: left;
+		text-align: center;
+		height: ;
+    	background: whitesmoke;	
+    	z-index: 0;
+    	border-radius: 2px;
+ 	}
+	
+	
+	
+	
+	.menu_button {
+	
+    	position: relative;
+    	width: 70px;
+    	margin: 15px 0% 0% 45%;
+    	left: 0px;
+        z-index: 5;
+        border: none;
+        background-color: whitesmoke;
+    }
+        
+	.menu_button img {
+	width: 100%;
+	height: 100%;
+	
+	}
+	
+	
+	
+    ul#nav {
+    list-style: none;
+    float: left;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    margin-top: 15%;
+    margin-bottom: 1%;
+    z-index: 0;
+   
+    
+    }
+    
+    ul.nav li{
+    opacity: 1;
+    float: left;
+    width: 93%;
+    margin: 3px;
+    margin-left: -18px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    
+    
+    ul.nav h3 {
+    text-align: center;
+    border-spacing: 20px;
+    font-size: 1.8em; 
+    color: darkgray;
+}
+
+
+	
+/* lang menu */
+
+    ul#lang_nav {
+    	position: relative;
+    	
+        margin: 2% 0% 1.5% 80%;
+        width: 4%;
+        z-index: 4;
+        }
+        
+        
+    ul.slide a {
+        display:block;
+        
+    }
+    ul.slide, ul.slide li, ul.slide ul {
+    position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        
+        
+       
+    }
+    ul.slide {
+        position: relative;
+        z-index: 1;
+        float: left;
+         
+    }
+    ul.slide li {
+        float: left;
+        line-height: 1.3em;
+        vertical-align: middle;
+        
+        zoom: 1;
+    }
+
+    ul.slide ul {
+        visibility: hidden;
+        position: absolute;
+        top: 0%;
+        left: 100%;
+        z-index: 2;
+        width: 100%;
+        padding:1px;
+        background: transparent;
+    }
+    ul.slide ul li {
+        float: left;
+        
+    }
+    ul.slide ul ul {
+        float: left;
+        
+        left:100%;
+    }
+    ul.slide li:hover > ul {
+        visibility: visible;
+        
+    }
+    ul.slide li:hover > ul ul {
+        visibility: visible;
+        
+    }
+
+
+/*Pages*/
+
+#slideshow { 
+    position: relative; 
+    width: 100%; 
+    height: 720px; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+#slideshow1 { 
+    position: relative; 
+    width: 100%; 
+    height: 470px; 
+}
+
+#slideshow1 > div { 
+    position: absolute; 
+}
+#slideshow2 { 
+    position: relative; 
+    width: 100%; 
+    height: 510px; 
+}
+
+#slideshow2 > div { 
+    position: absolute; 
+}
+#slideshow3 { 
+    position: relative; 
+    width: 100%; 
+    height: 470px; 
+}
+
+#slideshow3 > div { 
+    position: absolute; 
+}
+#slideshow4 { 
+    position: relative; 
+    width: 100%; 
+    height: 490px; 
+}
+
+#slideshow4 > div { 
+    position: absolute; 
+}
+
+
+
+.content {
+	width: 100%;
+	margin-top: 0%;	
+	}
+	
+	.contentbackground {
+	width: 100%;
+	position: absolute;
+	background-color: whitesmoke;
+	z-index: 3;
+	
+	}
+
+/* rubrik-ram */
+    .topiccontainer {
+    	position: relative;
+        background: whitesmoke;
+        width: 94%;
+        margin: 1%;
+        padding: 1%;
+        z-index: 5;
+        
+        }
+        
+        .topiccontainer2 {
+        position: relative;
+        width: 99%;
+        margin: 0% 1%;
+        top: 0%;
+        background-color: white; 
+        border-radius: 5px;
+        }
+        
+        .pagecontainer {
+    	position: relative;
+        float: left;
+        background: white;
+        width: 96%;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-bottom: 0px;
+        z-index: 5;
+        border-radius: 5px;
+        
+        }
+        
+   
+    
+    .topic {
+    	position: relative;
+        width: 100%;
+        height: 100%;
+        top: 15px;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        border-radius: 5px;
+    }
+    
+    .topic h2 {
+    	text-align: center;
+    	}
+    	
+        .topic p {
+    	text-align: center;
+    	}
+
+    
+    	.topicimg h2 {
+    	text-align: center;
+    	}
+    	
+    .topicimg p {
+    	text-align: center;
+    	}
+    	
+    	
+    .logga {
+	    visibility: visible;
+	    position: relative;
+	    width: 33%;
+	    margin: 0%;
+	    padding: 0%;
+	    top: 0%;
+	    z-index: 5;
+	}	
+
+    .topicwide {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+
+   .topic2 {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+    
+    .topic2 h3{
+		text-align: left;
+		}
+    
+    .topic2 p {
+        text-align: justify;
+		}
+		
+		
+	.topic3 {
+    	position: relative;
+        width: 96%;
+        float: left;
+        margin: 1%;
+        margin-top: 4%;
+        background-color: white;
+        box-shadow: none;
+        }
+        .topic3 button { 
+	    width: 100%;
+	 	background: none;
+  		border: none;
+		}
+		
+	.topicbilder{
+	
+        position: relative;
+        width: 98%;
+        float: left;
+        left: 3%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topicbilder img {
+        margin-top:4%;
+		width: 95%;
+		border-radius:15px;
+		}
+		
+		.topic2priser {
+        position: relative;
+        width: 30%;
+        float: left;
+        left: 3.5%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topic2priser p {
+		text-align: left;
+		}
+		
+	.topic2priser button { 
+	    width: 96%;
+	 	background: none;
+  		border: none;
+		}
+		
+		
+	
+
+    .topic img {
+    
+        margin: 5%;
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+    	.topicimg img {
+    
+        margin: 5%;
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+
+
+    .action {
+        background-color: midnightblue;
+        width: 90%;
+        height: 50px;
+        margin: 5%;
+        position: absolute;
+    	bottom: 0px;
+        border-radius: 10px;
+    }
+
+    .action h3 {
+        color: white;
+        margin: 0%;
+        padding: 5px;
+        font-size: 2.0em;
+    }
+    
+    
+    
+    
+     /* map */  
+    
+    .mapcontainter {
+    	float: left;
+    	position: relative;
+    	top: 0%;
+    	margin-top: 5%;
+    	width: 100%;
+    	background: whitesmoke;
+    	z-index: 1;
+    }
+    
+    .mappop { 
+    	visibility: hidden;
+    	opacity:1;
+    	position: absolute;
+    	overflow: scroll;
+    	left: 33%;
+    	top: 5%;
+    	width: 55%;
+    	height: 50%;
+    	margin: 10%;
+    	margin-top: 0%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .mappop:hover { 
+    	opacity: 1;
+    }
+    
+    .mappop h3 {
+    	
+    	text-align: center;
+    	margin-top: 8%;
+    }
+    
+    .mappop p {
+    	font-size: 1.3em;
+    	text-align: center;
+    	
+    }
+    
+     
+    .mappop button {
+    	visibility: hidden;
+    }
+    
+    
+	
+    .PREV {
+    	position: absolute;
+    	top: 0%;
+    	left: 0%;
+    	margin-top: 0%;
+   		width: 50%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    	
+    }
+    
+    .NEXT {
+    	position: absolute;
+        right: 5%;
+   		width: 50%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    }
+    .NEXT p {
+    	text-align: right;
+    }
+    
+    .map {
+		position: relative;
+		left: -8%;
+    	width: 96%;
+    	margin-left: 10%;
+		background: whitesmoke;
+		z-index: 2;
+		
+	}
+	
+	.map img {
+    	position: relative;
+    	width: 100%;
+    	margin-top: 0%;
+    	opacity: 1; 
+    	border: solid 1px black;
+    	border-radius: 5px;
+		z-index: 2;
+	}
+	
+	
+	
+	
+    
+    .mapaction {
+    	position: absolute;
+    	visibility: visible;
+   		width: 5%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 6;
+    }
+    
+    
+    
+        
+    #sjotorpBTN {
+    	left: 11%;
+    	top: 10%;
+    }
+    
+    #lyrestadBTN {
+    	left: 21%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnBTN {
+    	left: 28%;
+    	top: 24%;
+    	
+    }
+    
+    #hajstorpBTN {
+    	left: 32%;
+    	top: 34%;
+    	
+    }
+    
+    #torebodaBTN {
+    	left: 34%;
+    	top: 45%;
+    	
+    }
+    
+    #jonsbodaBTN {
+    	left: 34%;
+    	top: 60%;
+    	
+    }
+    
+    #vassbackenBTN {
+    	left: 40%;
+    	top: 68%;
+    	
+    }
+    
+    #lanthojdenBTN {
+    	left: 44%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpBTN {
+    	left: 47%;
+    	top: 72%;
+    	
+    }
+    
+    #forsvikBTN {
+    	left: 78%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgBTN {
+    	left: 92%;
+    	top: 83%;
+    	
+    }
+    
+    
+    .maphover {
+    	position: absolute;
+   		visibility: hidden;
+   		width: 10%;
+   		padding: 1%;
+   		background: whitesmoke;
+    	border-radius: 5px;
+    	border-bottom-left-radius: 0px;
+    	box-shadow: 1px 2px 3px;
+    	z-index: 5;
+    }
+    
+    .maphover h4 {
+    	text-align: center;
+    }
+    
+    #sjotorpHover {
+    	left: 14%;
+    	top: 8%;
+    	
+    }
+    
+    #lyrestadHover {
+        left: 24.5%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnHover {
+    	left: 28%;
+    	top: 19.5%;
+    	
+    }
+    
+    #hajstorpHover {
+       	left: 35%;
+    	top: 33%;
+    	
+    }
+    
+    #torebodaHover {
+       	left: 38%;
+    	top: 44%;
+    	
+    }
+    
+    #jonsbodaHover {
+		left: 37%;
+    	top: 61%;
+    	
+    }
+    
+    #vassbackenHover {
+       	left: 41%;
+    	top: 69%;
+    	
+    }
+    
+    #lanthojdenHover {
+       	left: 46%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpHover {
+       	left: 49%;
+    	top: 73%;
+    	
+    }
+    
+    #forsvikHover {
+       	left: 81%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgHover {
+       	left: 93%;
+    	top: 83%;
+    	
+    }
+    
+    
+    
+	.maplinepop { 
+    	visibility: visible;
+    	opacity: 0.9;
+    	position: absolute;
+    	left: 10%;
+    	top: 40%;
+    	width: 13%;
+    	padding: 1%;
+    	padding-left: 0px;
+    	padding-right: 0px;
+       	background: whitesmoke;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .maplinepop:hover { 
+    	opacity: 1;
+    }
+    
+    
+    .lineaction {
+    	position: absolute;
+   		visibility: visible;
+   		width: 40%;
+   		background: white;
+    	border-radius: px;
+    	border: 1px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+   
+    .linehover {
+    	position: relative;
+   		visibility: visible;
+   		opacity: 0.9;
+   		padding: 0%;
+   		margin: 2%;
+   		
+    	border-radius: 5px;
+    	border: solid 0px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+    .linehover h4 {
+    	text-align: center;
+    }
+    
+
+    /*Footer*/
+    
+    	.footer {
+	
+    	float: left;
+    	position: relative;
+    	width: 100%;
+    	height: 20%;
+    	   	
+    	text-align: center;
+		margin: 0%;    
+		
+		margin-top: 0px;
+		margin-bottom: 5%;	
+    	background-color: whitesmoke;
+    	
+    	flex-flow: row;
+    	-webkit-flex-flow: row;
+    	row-height: 100%;
+    	
+    	border-radius: px;
+    	z-index: 4;
+    	
+    	
+    }
+        
+    .footertopic {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 47%;
+    	min-height: 180px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+        .footertopic p {
+        font-size: 0.9em;
+        text-align: center;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	
+	.footertopic2 {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 130px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+        .footertopic2 p {
+        font-size: 0.9em;
+        text-align: justify;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	
+
+	.footer img {
+	    margin-top: 5%;
+		
+	}
+   
+   .footericon_no {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 220px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+   
+   .footericon {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 96%;
+    	min-height: 220px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 5px;
+    }
+    
+        .footericon p {
+        display: none; 
+        text-align: center;
+        font-size: 1em;
+	    margin-left: 10%;
+    	margin-right: 10%;
+    	}
+    	.footericon h3 {
+        display: none; 
+        text-align: center;
+        font-size: 1.3em;
+        margin-top: 10%;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	.iconimg img {
+	    display:none;
+	}
+    .footericon:hover {
+        background-color: white;
+    }
+    .footericon:hover p {
+        display: inline;
+    }
+    .footericon:hover h3 {
+        display: inline;
+    }
+    .footericon:hover img {
+        display: none;
+    }
+    .footericon:hover .iconimg img {
+        display: inline;
+    }
+    
+    
+    
+    
+    .footericon:focus {
+        background-color: white;
+    }
+    .footericon:focus p {
+        display: inline;
+    }
+    .footericon:focus h3 {
+        display: inline;
+    }
+    .footericon:focus img {
+        display: none;
+    }
+    .footericon:focus .iconimg img {
+        display: inline;
+    }
+
+
+/*Popup*/
+
+.pop { 
+    	visibility: hidden;
+    	position: fixed;
+    	width: 92%;
+    	height: 400px;
+    	z-index: 6; 
+    	padding: 5px;
+    	margin: 2%;
+    	padding: 2%;
+    	top: 5%;
+    	left: 0%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: gray 3px 4px 5px;
+    	
+    }
+    
+    .poptopic {
+    	position: relative;
+    	overflow: scroll;
+        width: 98%;
+        height: 380px;
+        border-radius: 5px;
+        z-index: 7; 
+        background-color: white;
+        box-shadow: none;
+        text-align: left;
+     
+    }
+    .poptopic p {
+        text-align: left;
+    }
+    
+    .close {
+    	right: 5;
+    	top: 5;
+    	float: right;
+    }
+    
+    .popoverflow {
+		visibility: hidden;
+		opacity: 0.5;
+    	position: fixed;
+    	left: 0%;
+    	width: 100%; 
+    	height: 100%;
+    	background: gray;
+    	z-index: 6; 
+    }
+
+}
+    
+@media(min-width:800px) and (max-width:100000px) {
+
+* {
+
+    margin: 0 auto;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, p2 {
+    margin: 3%;
+    text-align: left;
+}
+
+
+
+h1, h2 {
+    
+    border-spacing: 20px;
+    font-size: 2.5em; 
+    font-style: normal;
+}
+h3 {
+	font-size: 1.8em;
+}
+
+
+
+p {
+	font-size: 1.1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+html, body {
+
+
+ 
+}
+
+body {
+
+   	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+   	
+   	background-color: whitesmoke;
+   	
+   	
+}
+	
+	
+	
+	
+	/* Header */
+	
+	header {
+	
+	width: 100%;
+	max-width: 1200px;
+	background-color: whitesmoke;
+	left: 25%;
+	top: 0px;
+	    	z-index: 5;
+	padding-bottom: 0%;
+	}
+	
+	.menu {
+		position: fixed;
+		width: 100%;
+		max-width: 1200px; 
+		height: 100px;
+    	background: whitesmoke;	
+    	z-index: 5;
+    	border-radius: 2px;
+ 	}
+	
+	
+	
+	
+	.menu_button {
+	    display: none;
+    	position: relative;
+    	width: 70px;
+    	margin: 15px 0% 0% 570px;
+    	left: 0px;
+        z-index: 4;
+        border: none;
+        background-color: whitesmoke;
+    }
+        
+	.menu_button img {
+	width: 100%;
+	height: 100%;
+	
+	}
+	
+	
+    ul#nav {
+    list-style: none;
+    position: absolute;
+    float: left;
+    width: 99%;
+    left: 0px;
+    top: 20px;
+    margin-left: -2.4%;
+    margin-bottom: 3%;
+    
+    z-index: 1;
+   
+    
+    }
+    
+    ul.nav li{
+    opacity: 1;
+    float: left;
+    width: 12%;
+    height: 10%;
+    margin: 1%;
+    padding: -10px;
+    background-color: white;
+    border-radius: 5px;
+    
+    }
+    
+    ul.nav li h2 {
+    padding: 0px;
+    }
+    
+    ul.nav h3 {
+    text-align: center;
+    border-spacing: 20px;
+    font-size: 1.0em; 
+    color: darkgray;
+}
+    
+	
+	
+	
+/* lang menu */
+
+    ul#lang_nav {
+    	position: relative;
+    	
+        margin: 2% 0% 1.5% 80%;
+        width: 3%;
+        z-index: 4;
+        }
+        
+        
+    ul.slide a {
+        display:block;
+        
+    }
+    ul.slide, ul.slide li, ul.slide ul {
+    position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        
+        
+       
+    }
+    ul.slide {
+        position: relative;
+        z-index: 1;
+        float: left;
+         
+    }
+    ul.slide li {
+        float: left;
+        line-height: 1.3em;
+        vertical-align: middle;
+        
+        zoom: 1;
+    }
+
+    ul.slide ul {
+        visibility: hidden;
+        position: absolute;
+        top: 0%;
+        left: 100%;
+        z-index: 2;
+        width: 100%;
+        padding:1px;
+        background: transparent;
+    }
+    ul.slide ul li {
+        float: left;
+        
+    }
+    ul.slide ul ul {
+        float: left;
+        
+        left:100%;
+    }
+    ul.slide li:hover > ul {
+        visibility: visible;
+        
+    }
+    ul.slide li:hover > ul ul {
+        visibility: visible;
+        
+    }
+    
+    
+    
+
+/*Pages*/
+.content {
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	height: inherit;
+	
+	}
+	
+	.contentbackground {
+	width: 100%;
+	max-width: 1200px;
+	position: absolute;
+	background-color: whitesmoke;
+	z-index: 3;
+	
+	}
+
+/* rubrik-ram */
+
+    .loggocontainer {
+    	position: relative;
+        float: left;
+        flex-flow: row;
+        -webkit-flex-flow: row;
+        background: white;
+        width: 96%;
+        margin: 0% 2%;
+        z-index: 5;
+        
+        }
+
+    .topiccontainer {
+    	position: relative;
+        float: left;
+        flex-flow: row;
+        -webkit-flex-flow: row;
+        background: whitesmoke;
+        width: 99%;
+        margin: -0.5% 1%;
+        z-index: 5;
+        }
+        
+        .topiccontainer2 {
+        flex-flow: row;
+        -webkit-flex-flow: row;
+        position: relative;
+        width: 99%;
+        margin: 0% 1%;
+        top: 0%;
+        background-color: white; 
+        border-radius: 3px;
+        }
+        
+        .pagecontainer {
+    	position: relative;
+        float: left;
+        flex-flow: row;
+        -webkit-flex-flow: row;
+        background: white;
+        width: 96%;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-bottom: 0px;
+        z-index: 5;
+        border-radius: 3px;
+        
+        }
+   
+   
+    
+    .topic {
+    	position: relative;
+        flex-flow: column;
+        -webkit-flex-flow: column;
+        width: 31%;
+        float: left;
+        margin: 1%;
+        margin-top: 3%;
+        background-color: white;
+        box-shadow: none;
+        border-radius: 3px;
+    	}
+    	.topic h2 {
+    	text-align: center;
+    	}
+    	
+    .topic p {
+    	text-align: center;
+    	}
+    	
+    	.topicimg {
+    	position: relative;
+        flex-flow: column;
+        -webkit-flex-flow: column;
+        width: 31%;
+        float: left;
+        margin: 1%;
+        margin-top: 3%;
+        background-color: white;
+        box-shadow: none;
+        border-radius: 3px;
+    	}
+    	
+    	
+    	
+    .topicimg h2 {
+    	text-align: center;
+    	}
+    	
+    .topicimg p {
+    	text-align: center;
+    	}
+
+    .topicwide {
+    	position: relative;
+        width: 97%;
+        float: left;
+        left: 0px;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+    	
+    .topic2 {
+    	position: relative;
+        flex-flow: column;
+        -webkit-flex-flow: column;
+        width: 63%;
+        float: left;
+        margin-top: 5%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: none;
+        }
+    
+    .topic2 h3{
+		text-align: left;
+		}
+    
+    .topic2 p {
+        text-align: justify;
+		}
+		
+		
+	.topic3 {
+    	position: relative;
+        flex-flow: column;
+        -webkit-flex-flow: column;
+        width: 33%;
+        float: left;
+        margin: 1%;
+        margin-top: 4%;
+        background-color: white;
+        box-shadow: none;
+        text-align: left;
+        }
+    .topic3 button {
+        text-align: left;
+    }
+		
+	.topicbilder{
+		flex-flow: column;
+        -webkit-flex-flow: column;
+        position: relative;
+        width: 30%;
+        float: left;
+        left: 3.5%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topicbilder img {
+        margin-top:4%;
+		width: 95%;
+		border-radius:15px;
+		}
+		
+		.topic2priser {
+		flex-flow: column;
+        -webkit-flex-flow: column;
+        position: relative;
+        width: 30%;
+        float: left;
+        left: 3.5%;
+        margin-top: -5%;
+        margin-bottom: 5%;
+        text-align: center;
+        }
+        .topic2priser p {
+		text-align: left;
+		}
+		
+	.topic2priser button { 
+	 	background: none;
+  		border: none;
+		}
+		
+		#cykeltopic2 {
+		    margin-top: -300px; 
+		    left: -200%; 
+		    width:200%;
+		}
+		
+	
+
+    .topic img {
+    
+        margin: 5%;
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+    	.topicimg img {
+    
+        margin: 5%;
+        
+        width: 90%;
+        bottom: 0px;
+        position: relative;
+        border-radius: 5px;
+    	}
+    	
+
+
+    .action {
+        background-color: midnightblue;
+        width: 90%;
+        height: 50px;
+        margin: 5%;
+        position: absolute;
+    	bottom: 0px;
+        border-radius: 10px;
+    }
+
+    .action h3 {
+        color: white;
+        margin: 0%;
+        padding:5px;
+        font-size: 2.0em;
+    }
+    
+   
+    
+       
+    
+  /* map */  
+    
+    .mapcontainter {
+    	float: left;
+    	position: relative;
+    	top: 0%;
+    	margin-top: 5%;
+    	width: 100%;
+    	background: whitesmoke;
+    	z-index: 1;
+    }
+    
+    .mappop { 
+    	visibility: hidden;
+    	opacity:0.8;
+    	position: absolute;
+    	overflow: scroll;
+    	left: 45%;
+    	top: 5%;
+    	width: 40%;
+    	height: 40%;
+    	margin: 10%;
+    	margin-top: 0%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .mappop:hover { 
+    	opacity: 1;
+    }
+    
+    .mappop h3 {
+    	
+    	text-align: center;
+    }
+    
+     
+    .mappop button {
+    	visibility: hidden;
+    }
+    
+    
+	
+    .PREV {
+    	position: absolute;
+    	top: 0%;
+    	left: 0%;
+    	margin-top: 0%;
+   		width: 40%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    	
+    }
+    
+    .NEXT {
+    	position: absolute;
+        right: 5%;
+   		width: 40%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 4;
+    }
+    .NEXT p {
+    	text-align: right;
+    }
+    
+    .map {
+		position: relative;
+		left: -8%;
+    	width: 96%;
+    	margin-left: 10%;
+		background: whitesmoke;
+		z-index: 2;
+		
+	}
+	
+	.map img {
+    	position: relative;
+    	width: 100%;
+    	margin-top: 0%;
+    	opacity: 1; 
+    	border: solid 1px black;
+    	border-radius: 5px;
+		z-index: 2;
+	}
+	
+	
+	
+	
+    
+    .mapaction {
+    	position: absolute;
+    	visibility: visible;
+   		width: 5%;
+    	height: 10%;
+    	background: none;
+    	border: none;
+    	z-index: 6;
+    }
+    
+    
+    
+        
+    #sjotorpBTN {
+    	left: 11%;
+    	top: 10%;
+    }
+    
+    #lyrestadBTN {
+    	left: 21%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnBTN {
+    	left: 28%;
+    	top: 24%;
+    	
+    }
+    
+    #hajstorpBTN {
+    	left: 32%;
+    	top: 34%;
+    	
+    }
+    
+    #torebodaBTN {
+    	left: 34%;
+    	top: 45%;
+    	
+    }
+    
+    #jonsbodaBTN {
+    	left: 34%;
+    	top: 60%;
+    	
+    }
+    
+    #vassbackenBTN {
+    	left: 40%;
+    	top: 68%;
+    	
+    }
+    
+    #lanthojdenBTN {
+    	left: 44%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpBTN {
+    	left: 47%;
+    	top: 72%;
+    	
+    }
+    
+    #forsvikBTN {
+    	left: 78%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgBTN {
+    	left: 92%;
+    	top: 83%;
+    	
+    }
+    
+    
+    .maphover {
+    	position: absolute;
+   		visibility: hidden;
+   		width: 10%;
+   		padding: 1%;
+   		background: whitesmoke;
+    	border-radius: 5px;
+    	border-bottom-left-radius: 0px;
+    	box-shadow: 1px 2px 3px;
+    	z-index: 5;
+    }
+    
+    .maphover h4 {
+    	text-align: center;
+    }
+    
+    #sjotorpHover {
+    	left: 14%;
+    	top: 8%;
+    	
+    }
+    
+    #lyrestadHover {
+        left: 24.5%;
+    	top: 15%;
+    	
+    }
+    
+    #norrkvarnHover {
+    	left: 28%;
+    	top: 19.5%;
+    	
+    }
+    
+    #hajstorpHover {
+       	left: 35%;
+    	top: 33%;
+    	
+    }
+    
+    #torebodaHover {
+       	left: 38%;
+    	top: 44%;
+    	
+    }
+    
+    #jonsbodaHover {
+		left: 37%;
+    	top: 61%;
+    	
+    }
+    
+    #vassbackenHover {
+       	left: 41%;
+    	top: 69%;
+    	
+    }
+    
+    #lanthojdenHover {
+       	left: 46%;
+    	top: 65%;
+    	
+    }
+    
+    #tatorpHover {
+       	left: 49%;
+    	top: 73%;
+    	
+    }
+    
+    #forsvikHover {
+       	left: 81%;
+    	top: 74%;
+    	
+    }
+    
+    #karlsborgHover {
+       	left: 93%;
+    	top: 83%;
+    	
+    }
+    
+    
+    
+	.maplinepop { 
+    	visibility: visible;
+    	opacity: 0.9;
+    	position: absolute;
+    	left: 5%;
+    	top: 60%;
+    	width: 10%;
+    	padding: 1%;
+    	padding-left: 0px;
+    	padding-right: 0px;
+       	background: whitesmoke;
+    	border-radius: 5px;
+    	box-shadow: 1px 2px 3px;
+		z-index: 3; 	
+    }
+    
+    .maplinepop:hover { 
+    	opacity: 1;
+    }
+    
+    
+    .lineaction {
+    	position: absolute;
+   		visibility: visible;
+   		width: 40%;
+   		background: white;
+    	border-radius: px;
+    	border: 1px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+   
+    .linehover {
+    	position: relative;
+   		visibility: visible;
+   		opacity: 0.9;
+   		padding: 0%;
+   		margin: 2%;
+   		
+    	border-radius: 5px;
+    	border: solid 0px black; 
+    	box-shadow: 0px 0px 0px;
+    	z-index: 5;
+    }
+    .linehover h4 {
+    	text-align: center;
+    }
+    
+    
+    
+   
+    
+    
+    
+    
+    /*Footer*/
+ 
+    
+    
+    
+
+
+	.footer {
+	
+    	float: left;
+    	position: relative;
+    	width: 100%;
+    	height: 20%;
+    	   	
+    	text-align: center;
+		margin: 0%;    
+		
+		margin-top: 0px;
+		margin-bottom: 5%;	
+    	background-color: whitesmoke;
+    	
+    	flex-flow: row;
+    	-webkit-flex-flow: row;
+    	row-height: 100%;
+    	
+    	border-radius: px;
+    	z-index: 4;
+    	
+    	
+    	
+    }
+        
+    .footertopic {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 30.65%;
+    	min-height: 150px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 3px;
+    }
+        .footertopic p {
+        font-size: 0.9em;
+        text-align: justify;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	.footertopic2 {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 30.65%;
+    	min-height: 150px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: white;
+    	padding: 3% 0%;
+    	position: relative;
+    	border-radius: 3px;
+    }
+        .footertopic2 p {
+        font-size: 0.9em;
+        text-align: justify;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	
+
+	.footer img {
+		
+	}
+	
+	.footericon_no {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 30.65%;
+    	height: 200px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 1.5% 0%;
+    	position: relative;
+    	border-radius: 3px;
+    }
+   
+   .footericon {
+    	flex-flow: column;
+    	-webkit-flex-flow: column;
+    	width: 30.65%;
+    	height: 200px;
+    	float: left;
+    	margin-left: 2%;
+    	margin-top: 3%;
+    	padding: 1%;
+    	background-color: whitesmoke;
+    	padding: 1.5% 0%;
+    	position: relative;
+    	border-radius: 3px;
+    }
+    
+        .footericon p {
+        display: none; 
+        text-align: center;
+        font-size: 1em;
+	    margin-left: 10%;
+    	margin-right: 10%;
+    	}
+    	.footericon h3 {
+        display: none; 
+        text-align: center;
+        font-size: 1.3em;
+        margin-top: 10%;
+	    margin-left: 10%;
+    	margin-right: 10%;
+	}
+	.iconimg img {
+	    display:none;
+	}
+    .footericon:hover {
+        background-color: white;
+    }
+    .footericon:hover p {
+        display: inline;
+    }
+    .footericon:hover h3 {
+        display: inline;
+    }
+    .footericon:hover img {
+        display: none;
+    }
+    .footericon:hover .iconimg img {
+        display: inline;
+    }
+
+
+/*Popup*/
+
+    .pop { 
+    	visibility: hidden;
+    	position: fixed;
+    	width: 50%;
+    	max-height: 80%;
+    	overflow:scroll;
+    	z-index: 6; 
+    	padding: 10px;
+    	margin: 5%;
+    	padding: 2%;
+    	top: 0%;
+    	left: 20%;
+    	background-color: white;
+    	border-radius: 5px;
+    	box-shadow: gray 3px 4px 5px;
+    	
+    }
+    
+    .poptopic {
+    	position: relative;
+        flex-flow: column;
+        -webkit-flex-flow: column;
+        width: 100%;
+        z-index: 7; 
+        background-color: white;
+        box-shadow: none;
+    }
+    
+    
+    .close {
+    	right: 5;
+    	top: 5;
+    	float: right;
+    }
+    
+    .popoverflow {
+		visibility: hidden;
+		opacity: 0.5;
+    	position: fixed;
+    	left: 0%;
+    	width: 100%; 
+    	height: 100%;
+    	background: gray;
+    	z-index: 6; 
+    }
+    
+    }
+    
+       .FadeAway{
+           border-top: 1px solid black;
+    position: absolute; top:0px; left:0px; width:100%; height:100%;
+    background: linear-gradient(to bottom, rgba(245,245,245,1) 0%,rgba(245,245,245,0) 120%);
+}
+.FadeAway:hover{
+    position: absolute; top:0px; left:0px; width:100%; height:100%;
+    background: linear-gradient(to bottom, rgba(245,245,245,1) 0%,rgba(245,245,245,0) 0%);
+}

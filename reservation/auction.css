@@ -1,0 +1,133 @@
+body{
+	width: 300px;
+}
+#wrapper{
+	width: 100%;
+	margin-right: auto;
+	margin-left: 10px;
+}
+
+.available{
+    margin-top: 50px;
+    
+}
+
+.availablebike{
+	background-repeat: no-repeat;
+	float: left;
+	
+	width: 100%;
+}
+.availablesadel{
+visibility: visible;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top:-20px;
+	width: 100%;
+}
+.returnData2{
+	margin-top: -50px;
+}
+.picknickform {
+    display: none;
+    
+}
+.full{
+	background-repeat: no-repeat;
+	float: left;
+	
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+.numBikes{
+    margin-top:20px;
+	width: 100%;
+}
+.confirmform {
+	width: 100%;
+	flex-flow: column;
+    -webkit-flex-flow: column;
+    
+}
+
+.confirmform input {
+	width: 20px;
+	flex-flow: column;
+    -webkit-flex-flow: column;
+    right: 0px;
+    
+}
+#info {
+	height: 100px;
+	width: 280px;
+	margin: 5px;
+	
+}
+
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  top:30px;
+  position: relative;
+  font-family: Optima, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: ;
+  line-height: 20px;
+  
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+textarea {
+    display: block;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+select {
+    display: block;
+    height: 50px;
+    width: 20%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}

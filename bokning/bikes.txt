@@ -1,0 +1,5 @@
+$bike_unavali = array();
+    $bike_avail = array();
+    $bike_booked = array();
+    $bike_booked_str = "";
+    $bike_check = 0;

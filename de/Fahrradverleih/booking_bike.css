@@ -1,0 +1,115 @@
+.field {
+    visibility: hidden;
+    width: 96%;
+    position: relative;
+    margin: 10px;
+}
+.field h2 {
+    font-size: 2em;
+}
+
+.page_one {
+    
+}
+.page_two {
+    position: absolute;
+    bottom: 15px;
+    width: 95%;
+    left: 10px;
+    
+}
+.page_two h2{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+
+form {
+  background: -webkit-linear-gradient(bottom, lightgray, whitesmoke 175px);
+  background: -moz-linear-gradient(bottom, lightgray, whitesmoke 175px);
+  background: linear-gradient(bottom, lightgray, whitesmoke 175px);
+  margin: auto;
+  position: relative;
+  font-family: Optima, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: ;
+  line-height: 20px;
+  height: 860px;
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 10px;
+  border: 0px solid #999;
+  border: inset 0px solid #333;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+form button {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+textarea {
+    display: block;
+    height: 200px;
+    width: 100%; 
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+select {
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 15px 40px 15px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: px;
+    color: #777
+}
+
+
+
+
+
+
+
+
+
+
